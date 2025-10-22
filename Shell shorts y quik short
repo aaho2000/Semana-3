@@ -1,6 +1,6 @@
 El Quick Sort (o "Ordenamiento Rápido") es uno de los algoritmos de ordenamiento por comparación más eficientes y
-se basa en la técnica de "divide y vencerás".Funcionamiento Clave: Elige un elemento llamado pivote y particiona el resto de la lista en 
-dos sublistas: elementos menores que el pivote y elementos mayores que el pivote. Luego, aplica recursivamente el mismo proceso a las sublistas.
+se basa en la técnica de "divide y vencerás".Funcionamiento Clave: Elige un elemento llamado pivote y particiona el resto 
+de la lista en dos sublistas: elementos menores que el pivote y elementos mayores que el pivote. Luego, aplica recursivamente el mismo proceso a las sublistas.
 Complejidad de Tiempo:Caso Promedio/Mejor: $O(n \log n)$ 🚀 (Muy rápido para conjuntos de datos grandes).Caso Peor: $O(n^2)$ (Esto ocurre típicamente 
 si el pivote se elige de manera que la partición sea muy desigual, como seleccionar el elemento más pequeño o más grande repetidamente).Estabilidad: 
 No es estable por naturaleza, lo que significa que el orden relativo de los elementos iguales podría no conservarse.Uso: Es el algoritmo de ordenamiento interno (en memoria) 
