@@ -1,0 +1,18 @@
+El Quick Sort (o "Ordenamiento Rápido") es uno de los algoritmos de ordenamiento por comparación más eficientes y
+se basa en la técnica de "divide y vencerás".Funcionamiento Clave: Elige un elemento llamado pivote y particiona el resto de la lista en 
+dos sublistas: elementos menores que el pivote y elementos mayores que el pivote. Luego, aplica recursivamente el mismo proceso a las sublistas.
+Complejidad de Tiempo:Caso Promedio/Mejor: $O(n \log n)$ 🚀 (Muy rápido para conjuntos de datos grandes).Caso Peor: $O(n^2)$ (Esto ocurre típicamente 
+si el pivote se elige de manera que la partición sea muy desigual, como seleccionar el elemento más pequeño o más grande repetidamente).Estabilidad: 
+No es estable por naturaleza, lo que significa que el orden relativo de los elementos iguales podría no conservarse.Uso: Es el algoritmo de ordenamiento interno (en memoria) 
+más utilizado debido a su excelente rendimiento en la práctica y su bajo uso de memoria auxiliar (es un algoritmo in situ o in-place).
+
+
+
+Shell SortEl Shell Sort (o "Ordenamiento Shell") es una mejora del Insertion Sort (Ordenamiento por Inserción). 
+No usa la técnica de "divide y vencerás", sino que introduce un concepto de brechas o saltos para mover los elementos.Funcionamiento Clave:
+Primero, ordena elementos que están muy separados entre sí, utilizando una secuencia de intervalos decrecientes (las brechas). Al hacer esto, 
+los elementos pequeños o grandes pueden moverse rápidamente a su posición general. A medida que el algoritmo avanza, los intervalos se reducen, y 
+el último pase es un simple Insertion Sort sobre toda la lista (con un intervalo de 1), pero sobre un conjunto de datos que ya está parcialmente ordenado.
+Complejidad de Tiempo:Depende de la secuencia de brechas elegida. No se ha determinado un caso promedio o peor exacto, pero puede variar desde $O(n^2)$ hasta $O(n^{1.3})$ o $O(n (\log n)^2)$. 
+Es significativamente más rápido que $O(n^2)$ para muchos casos, pero no tan rápido como $O(n \log n)$ para el caso promedio.Estabilidad:
+No es estable.Uso: Es una buena opción para ordenar listas de tamaño medio y es uno de los algoritmos más rápidos entre los que tienen un rendimiento en el peor caso mejor que $O(n^2)$.
