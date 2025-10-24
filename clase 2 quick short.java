@@ -2,12 +2,9 @@ import java.util.Arrays;
 
 public class QuickSortNombres {
 
-    /**
-     * Método principal de Quick Sort.
-     * @param nombres El array de Strings a ordenar.
-     * @param bajo El índice inicial de la sublista.
-     * @param alto El índice final de la sublista.
-     */
+    
+      //Método principal de Quick Sort.
+   
     public static void quickSort(String[] nombres, int bajo, int alto) {
         if (bajo < alto) {
             // Encuentra el índice del pivote después de la partición
@@ -19,15 +16,11 @@ public class QuickSortNombres {
         }
     }
 
-    /**
-     * Realiza el paso de partición del Quick Sort.
-     * Elige el último elemento como pivote y coloca los elementos más
-     * "pequeños" (alfabéticamente) a su izquierda y los "grandes" a su derecha.
-     * @param nombres El array.
-     * @param bajo El índice inicial.
-     * @param alto El índice final (donde está el pivote).
-     * @return El índice del pivote después de la partición.
-     */
+    
+    //Realiza el paso de partición del Quick Sort.
+    //Elige el último elemento como pivote y coloca los elementos más
+    //"pequeños" (alfabéticamente) a su izquierda y los "grandes" a su derecha.
+   
     private static int particion(String[] nombres, int bajo, int alto) {
         // Seleccionamos el último elemento como pivote
         String pivote = nombres[alto];
@@ -54,7 +47,7 @@ public class QuickSortNombres {
         return i + 1;
     }
 
-    // --- Método principal para demostrar el uso ---
+    // Método principal para demostrar el uso
     public static void main(String[] args) {
         String[] listaNombres = {
             "Carlos", "Ana", "David", "Beatriz", "Eva", "Felipe", "Gala"
