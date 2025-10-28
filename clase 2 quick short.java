@@ -58,7 +58,7 @@ public class QuickSortNombres {
         // Llamada a la función Quick Sort
         quickSort(listaNombres, 0, listaNombres.length - 1);
 
-        System.out.println("--------------------------------------------------");
+        System.out.println("---------------------------------");
         System.out.println("Lista de nombres ordenada: " + Arrays.toString(listaNombres));
     }
 }
