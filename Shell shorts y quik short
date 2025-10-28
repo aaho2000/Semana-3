@@ -1,14 +1,18 @@
 El Quick Sort (o "Ordenamiento Rápido") es uno de los algoritmos de ordenamiento por comparación más eficientes y
-se basa en la técnica de "divide y vencerás".Funcionamiento Clave: Elige un elemento llamado pivote y particiona el resto 
+se basa en la técnica de "divide y vencerás".
+
+Funcionamiento Clave: Elige un elemento llamado pivote y particiona el resto 
 de la lista en dos sublistas: elementos menores que el pivote y elementos mayores que el pivote. Luego, aplica recursivamente el mismo proceso a las sublistas.
-Complejidad de Tiempo:Caso Promedio/Mejor: $O(n \log n)$ 🚀 (Muy rápido para conjuntos de datos grandes).Caso Peor: $O(n^2)$ (Esto ocurre típicamente 
-si el pivote se elige de manera que la partición sea muy desigual, como seleccionar el elemento más pequeño o más grande repetidamente).Estabilidad: 
+(Muy rápido para conjuntos de datos grandes).Caso Peor: $O(n^2)$ (Esto ocurre típicamente
+
+ 
+Estabilidad: 
 No es estable por naturaleza, lo que significa que el orden relativo de los elementos iguales podría no conservarse.Uso: Es el algoritmo de ordenamiento interno (en memoria) 
-más utilizado debido a su excelente rendimiento en la práctica y su bajo uso de memoria auxiliar (es un algoritmo in situ o in-place).
+más utilizado debido a su excelente rendimiento en la práctica y su bajo uso de memoria auxiliar
 
 
 
-Shell SortEl Shell Sort (o "Ordenamiento Shell") es una mejora del Insertion Sort (Ordenamiento por Inserción). 
+Shell Sort (o "Ordenamiento Shell") es una mejora del Insertion Sort (Ordenamiento por Inserción). 
 No usa la técnica de "divide y vencerás", sino que introduce un concepto de brechas o saltos para mover los elementos.Funcionamiento Clave:
 Primero, ordena elementos que están muy separados entre sí, utilizando una secuencia de intervalos decrecientes (las brechas). Al hacer esto, 
 los elementos pequeños o grandes pueden moverse rápidamente a su posición general. A medida que el algoritmo avanza, los intervalos se reducen, y 
