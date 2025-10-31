@@ -1,0 +1,18 @@
+Búsqueda LinealTambién conocida como búsqueda secuencial, 
+es el método más simple.Funcionamiento: 
+Recorre la lista elemento por elemento, desde el inicio hasta el final, 
+comparando cada uno con el valor buscado.Prerrequisito: No requiere que la lista esté ordenada.
+Eficiencia (Complejidad Temporal): $O(n)$.En el peor caso, debe examinar todos los $n$ elementos 
+(si el elemento buscado está al final o no existe).Uso Ideal: Para listas pequeñas o no ordenadas.
+
+
+Búsqueda BinariaEs un algoritmo mucho más eficiente, 
+pero tiene una restricción importante.Funcionamiento:
+Comienza comparando el valor buscado con el elemento en el medio de la lista.
+Si no es igual, descarta la mitad de la lista donde el valor no puede estar y continúa el proceso recursivamente con la mitad restante. 
+Repite hasta encontrar el valor o hasta que el intervalo de búsqueda esté vacío.
+Prerrequisito: Requiere que la lista esté ordenada.Eficiencia (Complejidad Temporal): $O(\log_2 n)$.
+El número de comparaciones es significativamente menor; por ejemplo, en una lista de 1 millón de elementos, 
+solo necesitaría un máximo de 20 comparaciones.Uso Ideal: Para listas grandes que están ordenadas. Si la lista no está ordenada,
+el tiempo que tomaría ordenarla ($O(n \log n)$) 
+podría anular la ventaja de la búsqueda binaria, a menos que se realicen múltiples búsquedas.
