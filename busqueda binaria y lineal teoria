@@ -11,7 +11,7 @@ pero tiene una restricción importante.Funcionamiento:
 Comienza comparando el valor buscado con el elemento en el medio de la lista.
 Si no es igual, descarta la mitad de la lista donde el valor no puede estar y continúa el proceso recursivamente con la mitad restante. 
 Repite hasta encontrar el valor o hasta que el intervalo de búsqueda esté vacío.
-Prerrequisito: Requiere que la lista esté ordenada.Eficiencia (Complejidad Temporal): $O(\log_2 n)$.
+Prerrequisito: Requiere que la lista esté ordenada.Eficiencia (Complejidad Temporal): (\log_2 n)
 El número de comparaciones es significativamente menor; por ejemplo, en una lista de 1 millón de elementos, 
 solo necesitaría un máximo de 20 comparaciones.Uso Ideal: Para listas grandes que están ordenadas. Si la lista no está ordenada,
 el tiempo que tomaría ordenarla ($O(n \log n)$) 
