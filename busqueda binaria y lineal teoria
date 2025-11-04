@@ -2,7 +2,7 @@ Búsqueda LinealTambién conocida como búsqueda secuencial,
 es el método más simple.Funcionamiento: 
 Recorre la lista elemento por elemento, desde el inicio hasta el final, 
 comparando cada uno con el valor buscado.Prerrequisito: No requiere que la lista esté ordenada.
-Eficiencia (Complejidad Temporal): $O(n)$.En el peor caso, debe examinar todos los $n$ elementos 
+Eficiencia (Complejidad Temporal): $O(n)$.En el peor caso, debe examinar todos los  elementos 
 (si el elemento buscado está al final o no existe).Uso Ideal: Para listas pequeñas o no ordenadas.
 
 
