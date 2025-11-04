@@ -17,7 +17,7 @@ public class QuickSortNombres {
     }
 
     
-    //Realiza el paso de partición del Quick Sort.
+    // partición del Quick Sort.
     //Elige el último elemento como pivote y coloca los elementos más
     //"pequeños" (alfabéticamente) a su izquierda y los "grandes" a su derecha.
    
