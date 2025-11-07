@@ -1,0 +1,18 @@
+Recursividad: Explicación Teórica
+La recursividad es una técnica de programación donde una función se llama a sí misma para resolver un problema. 
+Es especialmente útil para problemas que tienen una estructura repetitiva o pueden descomponerse en subproblemas 
+más pequeños del mismo tipo que el original.
+
+El Backtracking (o "vuelta atrás") es una técnica recursiva 
+que se utiliza para resolver problemas de decisión (como laberintos, 
+el problema de las N-Reinas, Sudoku).
+
+Principio: Prueba soluciones parciales.
+Si se determina que una solución parcial no puede llevar a una solución completa, 
+el algoritmo retrocede (backtrack) y prueba otra opción.
+
+Mecánica: Se basa en la recursividad, 
+donde la llamada recursiva explora un camino (movimiento) y,
+si ese camino falla, el código inmediatamente anterior a return falso 
+(la línea de desmarcar posición (backtrack) en el pseudocódigo del laberinto)
+"deshace" el cambio, permitiendo que la siguiente llamada recursiva pruebe una rama diferente.
