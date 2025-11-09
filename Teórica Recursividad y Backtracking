@@ -3,6 +3,7 @@ La recursividad es una técnica de programación donde una función se llama a s
 Es especialmente útil para problemas que tienen una estructura repetitiva o pueden descomponerse en subproblemas 
 más pequeños del mismo tipo que el original.
 
+
 El Backtracking (o "vuelta atrás") es una técnica recursiva 
 que se utiliza para resolver problemas de decisión (como laberintos, 
 el problema de las N-Reinas, Sudoku).
