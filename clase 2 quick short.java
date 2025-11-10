@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class QuickSortNombres {
 
     
-      // Quick Sort principal 
+      // Quick Sort principallll
    
     public static void quickSort(String[] nombres, int bajo, int alto) {
         if (bajo < alto) {
