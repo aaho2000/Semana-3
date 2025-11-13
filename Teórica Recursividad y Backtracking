@@ -1,7 +1,7 @@
 Recursividad: Explicación Teórica
 La recursividad es una técnica de programación donde una función se llama a sí misma para resolver un problema. 
 Es especialmente útil para problemas que tienen una estructura repetitiva o pueden descomponerse en subproblemas 
-más pequeños del mismo tipo que el original.
+más pequeños del mismo tipo que el original.,,
 
 
 El Backtracking (o "vuelta atrás") es una técnica recursiva 
