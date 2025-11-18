@@ -1,1 +1,1 @@
-practiac 3
+practica calificada 3
